@@ -1,0 +1,34 @@
+.outer-header{
+display: flex;
+justify-content: space-between;
+height: 10vh;
+padding: 0 30px;
+align-items: center;
+margin: auto;
+max-width: 100%;
+background-color: #1a1a1a;
+}
+.left-header>ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 590px;
+
+
+}
+.right-header>ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 200px;
+}
+.netflex-logo>img{
+    height: 15vh;
+}
+li{
+    list-style: none;
+    justify-content: space-between;
+    transition: 350ms;
+    cursor:pointer;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+}
+.footerFirstDiv{
+    margin: auto;
+    width: 980px;
+}
+.socialMidiya>ul{
+    display: flex;
+}
+.socialMidiya>ul>li{
+   margin-right: 15px;
+}
+.footerNave{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footerNave>div>ul>li{
+    margin-bottom: 5px;
+    font-size: small;
+    color: rgb(136, 136, 136);;
+}
