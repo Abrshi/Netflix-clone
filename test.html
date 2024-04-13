@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Box</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    input[type="text"] {
+        padding: 10px;
+        width: 300px;
+    }
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <form id="searchForm" onsubmit="return submitSearch()">
+        <input type="text" id="searchInput" placeholder="Enter your search term">
+        <input type="submit" value="Search">
+    </form>
+    <div id="searchResult"></div>
+</div>
+
+<script>
+    function submitSearch() {
+        var searchTerm = document.getElementById("searchInput").value;
+        document.getElementById("searchResult").innerText = "You searched for: " + searchTerm;
+        return false; // Prevents form submission
+    }
+</script>
+<div id="searchResult">You searched for: abebe&lt;/div&gt;&lt;div&gt;abebe</div>
+</body>
+</html>
