@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap; /* Optional: Prevents wrapping to a new row if the content overflows */
+    overflow-x: auto;
+  }
+  .flex-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .singlmove {
+    margin-right: 10px; /* Optional: Adds some space between each .singlmove div */
+  }
+  .todoun{
+    margin-top: 100px;
+  }
+  .hone{
+    padding:35px 0 10px 35px;
+  }

@@ -1,0 +1,10 @@
+.singlmove{
+height: 169px;
+width: 300px;
+background-color: wheat;
+background-repeat: no-repeat;
+ background-size: contain;
+}
+.listofmoves{
+    display: flex;
+}
